@@ -12,25 +12,216 @@ author_profile: true
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="publications" style="height: 100%; overflow-y: auto;">
+  <div class="pub-year">
+    <h2>2025</h2>
+    <div class="pub-item">
+      <div class="pub-title">
+        <div class="pub-venue">CHI 2025</div>
+Characterizing LLM-Empowered Personalized Story-Reading and Interaction for Children: Insights from Multi-Stakeholder Perspectives
+      </div>
+      <div class="pub-authors">
+        <strong>Jiaju Chen</strong>,
+        Minglong Tang
+        <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+        <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+        Elissa Fan,
+        <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
+        <a href="https://ying-xu.com/">Ying Xu</a>, 
+        <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
+        <a href="https://www.yulingsun.net/">Yuling Sun</a>,
+        Liang He.
+      </div>
+      <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
+      <!-- <div class="pub-links">
+        <a href="#">PDF</a> |
+        <a href="#">Code</a> |
+        <a href="#">Video</a>
+      </div> -->
+    </div>
+    <div class="pub-item">
+      <div class="pub-title">
+        <div class="pub-venue">CHI 2025</div>
+Live-Streaming-Based Dual-Teacher Classes for Equitable Education: Insights and Challenges From Local Teachers' Perspective in Disadvantaged Areas
+      </div>
+      <div class="pub-authors">
+        <a href="https://www.yulingsun.net/">Yuling Sun</a>,
+        <strong>Jiaju Chen</strong>,
+        Xiaomu Zhou,
+        <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
+        <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+        Kai Zhang,
+        Liang He,
+        <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
+      </div>
+      <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
+      <!-- <div class="pub-links">
+        <a href="#">PDF</a> |
+        <a href="#">Code</a> |
+        <a href="#">Video</a>
+      </div> -->
+    </div>
+  </div>
+  <div class="pub-year">
+    <h2>2024</h2>
+    <div class="pub-item">
+      <div class="pub-title">
+        <div class="pub-venue">EMNLP 2024</div>
+StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children's Story-Based Learning
+      </div>
+      <div class="pub-authors">
+        <strong>Jiaju Chen</strong>,
+        <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+        <a href="https://shaozhang.info/">Shao Zhang</a>,
+        <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+        Yuanzhe Dong,
+        <a href="https://ying-xu.com/">Ying Xu</a>, 
+        Yunyao Li,
+        <a href="https://qianwen.info/">Qianwen Wang</a>,
+        <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
+        <a href="https://www.yulingsun.net/">Yuling Sun</a>,
+        Liang He.
+      </div>
+      <p style="font-style: italic;">In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</p>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2311.09756" class="button-link">
+          <i class="fas fa-file-pdf"></i> Arxiv
+        </a>
+        <a href="https://github.com/neuhai/StorySparkQA" class="button-link">
+          <i class="fab fa-github"></i> Code
+        </a>
+        <a href="https://huggingface.co/datasets/NEU-HAI/StorySparkQA" class="button-link">
+          <i class="fas fa-database"></i> Dataset
+        </a>
+      </div>
+    </div>
+      <div class="pub-item">
+      <div class="pub-title">
+        <div class="pub-venue">CSCW 2024</div>
+Exploring Parent's Needs for Children-Centered AI to Support Preschoolers' Interactive Storytelling and Reading Activities
+      </div>
+      <div class="pub-authors">
+        <a href="https://www.yulingsun.net/">Yuling Sun</a>,
+        <strong>Jiaju Chen</strong>,
+        <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+        Jiali Liu,
+        <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
+        <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
+        <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+        <a href="https://ying-xu.com/">Ying Xu</a>, 
+        Liang He.
+      </div>
+      <p style="font-style: italic;">In Proceedings of the ACM on Human-Computer Interaction, Volume 8, Issue CSCW2</p>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2401.13804" class="button-link">
+          <i class="fas fa-file-pdf"></i> Arxiv
+        </a>
+      </div>
+    </div>
+</div>
+
+<style>
+.publications {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding-right: 10px;
+}
+
+.pub-year h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.pub-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  transition: transform 0.2s ease;
+}
+
+.pub-item:hover {
+  transform: translateX(5px);
+  border-left: 3px solid #007bff;
+}
+
+.pub-title {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.pub-authors {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.pub-venue {
+  color: #007bff;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.pub-links {
+  font-size: 0.9em;
+}
+
+.pub-links a {
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.pub-links a:hover {
+  backgroundcolor: #007bff;
+}
+
+/* Scrollbar styling */
+.publications::-webkit-scrollbar {
+  width: 8px;
+}
+
+.publications::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.publications::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.publications::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 4px 12px;
+  margin: 0 5px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: #495057;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.button-link:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.button-link i {
+  margin-right: 5px;
+}
+</style>
 
 
 
