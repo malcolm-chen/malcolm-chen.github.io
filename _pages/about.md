@@ -19,108 +19,117 @@ Two papers **StoryMate** and **Live-Streaming-Based Dual-Teacher** are accepted 
   <div class="pub-year">
     <h2>2025</h2>
     <div class="pub-item">
-      <div class="pub-title">
-        <div class="pub-venue">CHI 2025</div>
-Characterizing LLM-Empowered Personalized Story-Reading and Interaction for Children: Insights from Multi-Stakeholder Perspectives
+      <div>
+        <img src="/images/StoryMate.png" alt="StoryMate Teaser" class="pub-image">
+        <img src="/images/storymate_conv.png" alt="StoryMate Conversation Teaser" class="pub-image">
       </div>
-      <div class="pub-authors">
-        <strong>Jiaju Chen</strong>,
-        Minglong Tang
-        <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
-        <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
-        Elissa Fan,
-        <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
-        <a href="https://ying-xu.com/">Ying Xu</a>, 
-        <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
-        <a href="https://www.yulingsun.net/">Yuling Sun</a>,
-        Liang He.
+      <div class="pub-content">
+        <div class="pub-title">
+          <div class="pub-venue">CHI 2025</div>
+          Characterizing LLM-Empowered Personalized Story-Reading and Interaction for Children: Insights from Multi-Stakeholder Perspectives
+        </div>
+        <div class="pub-authors">
+          <strong>Jiaju Chen</strong>,
+          Minglong Tang
+          <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+          Elissa Fan,
+          <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
+          <a href="https://ying-xu.com/">Ying Xu</a>, 
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
+          <a href="https://www.yulingsun.net/">Yuling Sun</a>,
+          Liang He.
+        </div>
+        <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
       </div>
-      <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
-      <!-- <div class="pub-links">
-        <a href="#">PDF</a> |
-        <a href="#">Code</a> |
-        <a href="#">Video</a>
-      </div> -->
     </div>
     <div class="pub-item">
-      <div class="pub-title">
-        <div class="pub-venue">CHI 2025</div>
-Live-Streaming-Based Dual-Teacher Classes for Equitable Education: Insights and Challenges From Local Teachers' Perspective in Disadvantaged Areas
+      <div>
+        <img src="/images/onescreen.png" alt="Live-Streaming Teaser" class="pub-image">
+        <img src="/images/lsdc.png" alt="Live-Streaming Teaser" class="pub-image">
       </div>
-      <div class="pub-authors">
-        <a href="https://www.yulingsun.net/">Yuling Sun</a>,
-        <strong>Jiaju Chen</strong>,
-        Xiaomu Zhou,
-        <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
-        <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
-        Kai Zhang,
-        Liang He,
-        <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
+      <div class="pub-content">
+        <div class="pub-title">
+          <div class="pub-venue">CHI 2025</div>
+          Live-Streaming-Based Dual-Teacher Classes for Equitable Education: Insights and Challenges From Local Teachers' Perspective in Disadvantaged Areas
+        </div>
+        <div class="pub-authors">
+          <a href="https://www.yulingsun.net/">Yuling Sun</a>,
+          <strong>Jiaju Chen</strong>,
+          Xiaomu Zhou,
+          <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+          Kai Zhang,
+          Liang He,
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
+        </div>
+        <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
       </div>
-      <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
-      <!-- <div class="pub-links">
-        <a href="#">PDF</a> |
-        <a href="#">Code</a> |
-        <a href="#">Video</a>
-      </div> -->
     </div>
   </div>
   <div class="pub-year">
     <h2>2024</h2>
     <div class="pub-item">
-      <div class="pub-title">
-        <div class="pub-venue">EMNLP 2024</div>
-StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children's Story-Based Learning
-      </div>
-      <div class="pub-authors">
-        <strong>Jiaju Chen</strong>,
-        <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
-        <a href="https://shaozhang.info/">Shao Zhang</a>,
-        <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
-        Yuanzhe Dong,
-        <a href="https://ying-xu.com/">Ying Xu</a>, 
-        Yunyao Li,
-        <a href="https://qianwen.info/">Qianwen Wang</a>,
-        <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
-        <a href="https://www.yulingsun.net/">Yuling Sun</a>,
-        Liang He.
-      </div>
-      <p style="font-style: italic;">In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</p>
-      <div class="pub-links">
-        <a href="https://arxiv.org/abs/2311.09756" class="button-link">
-          <i class="fas fa-file-pdf"></i> Arxiv
-        </a>
-        <a href="https://github.com/neuhai/StorySparkQA" class="button-link">
-          <i class="fab fa-github"></i> Code
-        </a>
-        <a href="https://huggingface.co/datasets/NEU-HAI/StorySparkQA" class="button-link">
-          <i class="fas fa-database"></i> Dataset
-        </a>
-      </div>
-    </div>
-      <div class="pub-item">
-      <div class="pub-title">
-        <div class="pub-venue">CSCW 2024</div>
-Exploring Parent's Needs for Children-Centered AI to Support Preschoolers' Interactive Storytelling and Reading Activities
-      </div>
-      <div class="pub-authors">
-        <a href="https://www.yulingsun.net/">Yuling Sun</a>,
-        <strong>Jiaju Chen</strong>,
-        <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
-        Jiali Liu,
-        <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
-        <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
-        <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
-        <a href="https://ying-xu.com/">Ying Xu</a>, 
-        Liang He.
-      </div>
-      <p style="font-style: italic;">In Proceedings of the ACM on Human-Computer Interaction, Volume 8, Issue CSCW2</p>
-      <div class="pub-links">
-        <a href="https://arxiv.org/abs/2401.13804" class="button-link">
-          <i class="fas fa-file-pdf"></i> Arxiv
-        </a>
+      <img src="/images/storyspark.png" alt="StorySparkQA Teaser" class="pub-image">
+      <div class="pub-content">
+        <div class="pub-title">
+          <div class="pub-venue">EMNLP 2024</div>
+          StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children's Story-Based Learning
+        </div>
+        <div class="pub-authors">
+          <strong>Jiaju Chen</strong>,
+          <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+          <a href="https://shaozhang.info/">Shao Zhang</a>,
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+          Yuanzhe Dong,
+          <a href="https://ying-xu.com/">Ying Xu</a>, 
+          Yunyao Li,
+          <a href="https://qianwen.info/">Qianwen Wang</a>,
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
+          <a href="https://www.yulingsun.net/">Yuling Sun</a>,
+          Liang He.
+        </div>
+        <p style="font-style: italic;">In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2311.09756" class="button-link">
+            <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+          <a href="https://github.com/neuhai/StorySparkQA" class="button-link">
+            <i class="fab fa-github"></i> Code
+          </a>
+          <a href="https://huggingface.co/datasets/NEU-HAI/StorySparkQA" class="button-link">
+            <i class="fas fa-database"></i> Dataset
+          </a>
+        </div>
       </div>
     </div>
+    <div class="pub-item">
+    <img src="/images/cscw24.png" alt="CSCW24 Teaser" class="pub-image">
+      <div class="pub-content">
+        <div class="pub-title">
+          <div class="pub-venue">CSCW 2024</div>
+          Exploring Parent's Needs for Children-Centered AI to Support Preschoolers' Interactive Storytelling and Reading Activities
+        </div>
+        <div class="pub-authors">
+          <a href="https://www.yulingsun.net/">Yuling Sun</a>,
+          <strong>Jiaju Chen</strong>,
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+          Jiali Liu,
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
+          <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>,
+          <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+          <a href="https://ying-xu.com/">Ying Xu</a>, 
+          Liang He.
+        </div>
+        <p style="font-style: italic;">In Proceedings of the ACM on Human-Computer Interaction, Volume 8, Issue CSCW2</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2401.13804" class="button-link">
+            <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -143,6 +152,25 @@ Exploring Parent's Needs for Children-Centered AI to Support Preschoolers' Inter
   border-radius: 5px;
   border: 1px solid #eee;
   transition: transform 0.2s ease;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.pub-image {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  display: block;
+  margin: auto 0;
+}
+
+.pub-content {
+  flex: 1;
+  align-self: start;
 }
 
 .pub-item:hover {
