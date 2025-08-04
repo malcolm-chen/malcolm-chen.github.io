@@ -17,10 +17,18 @@ News
 ======
 <div class="news-container">
   <div class="news-content" id="newsContent">
-    <strong>04/2025</strong>  🎡 Attending CHI 2025 in Yokohama and will present our StoryMate paper. I also work as a student volunteer this year.<br>
-    <strong>01/2025</strong>  ⭐️ Two papers <strong>StoryMate</strong> and <strong>Live-Streaming-Based Dual-Teacher</strong> are accepted by CHI 2025. See you in Yokohama!<br>
-    <strong>11/2024</strong>  🌴 Attended EMNLP 2024 at Miami, Florida, USA.<br>
-    <strong>11/2024</strong>  🌋 Attended CSCW 2024 at San Jose, Costa Rica.
+    <div class="news-item">
+      <strong>04/2025</strong>  🎡 Attending CHI 2025 in Yokohama and will present our StoryMate paper. I also work as a student volunteer this year.
+    </div>
+    <div class="news-item">
+      <strong>01/2025</strong>  ⭐️ Two papers <strong>StoryMate</strong> and <strong>Live-Streaming-Based Dual-Teacher</strong> are accepted by CHI 2025. See you in Yokohama!
+    </div>
+    <div class="news-item">
+      <strong>11/2024</strong>  🌴 Attended EMNLP 2024 at Miami, Florida, USA.
+    </div>
+    <div class="news-item">
+      <strong>11/2024</strong>  🌋 Attended CSCW 2024 at San Jose, Costa Rica.
+    </div>
   </div>
   <button class="show-more-btn" id="showMoreBtn" onclick="toggleNews()">
     <i class="fas fa-chevron-down"></i> Show More

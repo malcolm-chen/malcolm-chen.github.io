@@ -33,15 +33,13 @@ p, div, span, li {
   white-space: pre-line;
 }
 
-.news-content strong {
-  display: inline-block;
-  margin-bottom: 8px;
+.news-item {
+  margin-bottom: 12px;
+  line-height: 1.3;
 }
 
-.news-content br {
-  margin-bottom: 12px;
-  display: block;
-  content: "";
+.news-item:last-child {
+  margin-bottom: 0;
 }
 
 .news-content.expanded {
