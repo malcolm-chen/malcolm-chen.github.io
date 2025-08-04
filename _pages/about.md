@@ -11,7 +11,7 @@ Hi! My name is Jiaju Chen, a Master's student at Rice University.
 
 My research focuses on **Human-Centered AI** design of NLP applications for domain-specific scenarios, including personalized LLM-powered systems for children's education [[CHI '25]](https://dl.acm.org/doi/10.1145/3706598.3713275), dataset for evaluating LLMs' capability to generate educational-appropriate content [[EMNLP '24]](https://aclanthology.org/2024.emnlp-main.961/). Recently, I have been working on **LLM Agents** for human behavior simulation, such as leveraging LLM to simulate real-world multi-stakeholder evaluation of NLP applications.
 
-Now I am a research assistant at the Human-Centered AI Lab at Northeastern University, working on projects advised by Prof. [Dakuo Wang](https://www.dakuowang.com/).
+Now I am a research assistant at the Human-Centered AI Lab at Northeastern University, working on projects advised by Prof. [Dakuo Wang](https://www.dakuowang.com/). During my undergraduate study, I worked closely with Prof. [Yuling Sun](https://www.yulingsun.net/).
 
 News
 ======
