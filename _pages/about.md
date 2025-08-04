@@ -1,23 +1,90 @@
 ---
 permalink: /
-title: "👋🏻 About Me"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi! My name is Jiaju Chen, a Master's student at Rice University. My research interests lie in **Human-Centered AI**, including **Human-Computer Interaction** and **Natural Language Processing**. In particular, I am interested in how to design, develop and evaluate **LLM-powered systems** that are flexible, adaptive, and personalized. My current work focuses on LLM-powered systems for children's education. I worked closely with Prof. [Yuling Sun](https://www.yulingsun.net/) during my undergraduate study. More recently, I am a research assistant at the Human-Centered AI Lab at Northeastern University, working on projects advised by Prof. [Dakuo Wang](https://www.dakuowang.com/).
+Hi! My name is Jiaju Chen, a Master's student at Rice University. 
 
-📬 Updates
+My research focuses on **Human-Centered AI** design of NLP applications for domain-specific scenarios, including personalized LLM-powered systems for children's education [[CHI '25]](https://dl.acm.org/doi/10.1145/3706598.3713275), dataset for evaluating LLMs' capability to generate educational-appropriate content [[EMNLP '24]](https://aclanthology.org/2024.emnlp-main.961/). Recently, I have been working on **LLM Agents** for human behavior simulation, such as leveraging LLM to simulate real-world multi-stakeholder evaluation of NLP applications.
+
+Now I am a research assistant at the Human-Centered AI Lab at Northeastern University, working on projects advised by Prof. [Dakuo Wang](https://www.dakuowang.com/).
+
+News
 ======
-Two papers **StoryMate** and **Live-Streaming-Based Dual-Teacher** are accepted by CHI 2025. See you in Yokohama!
+<div class="news-container">
+  <div class="news-content" id="newsContent">
+    <strong>04/2025</strong>  🎡 Attending CHI 2025 in Yokohama and will present our StoryMate paper. I also work as a student volunteer this year.
 
-📄 Publications
+    <strong>01/2025</strong>  ⭐️ Two papers <strong>StoryMate</strong> and <strong>Live-Streaming-Based Dual-Teacher</strong> are accepted by CHI 2025. See you in Yokohama!
+
+    <strong>11/2024</strong>  🌴 Attended EMNLP 2024 at Miami, Florida, USA.
+
+    <strong>11/2024</strong>  🌋 Attended CSCW 2024 at San Jose, Costa Rica.
+  </div>
+  <button class="show-more-btn" id="showMoreBtn" onclick="toggleNews()">
+    <i class="fas fa-chevron-down"></i> Show More
+  </button>
+</div>
+
+<script>
+function toggleNews() {
+  const content = document.getElementById('newsContent');
+  const btn = document.getElementById('showMoreBtn');
+  const icon = btn.querySelector('i');
+  
+  if (content.classList.contains('expanded')) {
+    content.classList.remove('expanded');
+    btn.innerHTML = '<i class="fas fa-chevron-down"></i> Show More';
+  } else {
+    content.classList.add('expanded');
+    btn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Less';
+  }
+}
+
+// 自动转换 **text** 为 <strong>text</strong>
+document.addEventListener('DOMContentLoaded', function() {
+  const newsContent = document.getElementById('newsContent');
+  if (newsContent) {
+    newsContent.innerHTML = newsContent.innerHTML.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  }
+});
+</script>
+
+Publications
 ======
 <div class="publications" style="height: 100%; overflow-y: auto;">
   <div class="pub-year">
     <h2>2025</h2>
+    <div class="pub-item">
+      <div>
+        <img src="/images/Evaluation_Framework.png" alt="StoryMate Teaser" class="pub-image">
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">
+          <div class="pub-venue">In Submission</div>
+          Multi-Agent-as-Judge: Aligning LLM-Agent-Based Automated Evaluation with Multi-Dimensional Human Evaluation
+        </div>
+        <div class="pub-authors">
+          <strong>Jiaju Chen</strong>,
+          <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+          Xiaojie Wang, Huimin Zeng, Jing Huang, Jiri Gesi, 
+          <a href="https://ying-xu.com/">Ying Xu</a>, 
+          Ying Xu,
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
+        </div>
+        <p style="font-style: italic;">arXiv Preprint</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2507.21028" class="button-link">
+            <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="pub-item">
       <div>
         <img src="/images/StoryMate.png" alt="StoryMate Teaser" class="pub-image">
@@ -41,6 +108,20 @@ Two papers **StoryMate** and **Live-Streaming-Based Dual-Teacher** are accepted 
           Liang He.
         </div>
         <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2503.00590" class="button-link">
+            <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+          <a href="https://www.youtube.com/watch?v=mOOor4hOCp0" class="button-link">
+            <i class="fa-solid fa-video"></i> Presentation
+          </a>
+          <a href="https://storymate.hailab.io/" class="button-link">
+            <i class="fa-solid fa-circle-play"></i> Demo
+          </a>
+          <a href="https://github.com/neuhai/storymate" class="button-link">
+            <i class="fab fa-github"></i> Code
+          </a>
+        </div>
       </div>
     </div>
     <div class="pub-item">
@@ -64,6 +145,11 @@ Two papers **StoryMate** and **Live-Streaming-Based Dual-Teacher** are accepted 
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
         </div>
         <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/abs/10.1145/3706598.3714232" class="button-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -175,7 +261,7 @@ Two papers **StoryMate** and **Live-Streaming-Based Dual-Teacher** are accepted 
 
 .pub-item:hover {
   transform: translateX(5px);
-  border-left: 3px solid #007bff;
+  border-left: 3px solid #4682B4;
 }
 
 .pub-title {
@@ -191,9 +277,17 @@ Two papers **StoryMate** and **Live-Streaming-Based Dual-Teacher** are accepted 
 }
 
 .pub-venue {
-  color: #007bff;
-  font-style: italic;
+  color: white;
+  background-color: #4682B4;
+  font-style: normal;
   margin-bottom: 5px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: 500;
+  display: inline-block;
+  line-height: 1.2;
+  vertical-align: middle;
 }
 
 .pub-links {
@@ -207,7 +301,7 @@ Two papers **StoryMate** and **Live-Streaming-Based Dual-Teacher** are accepted 
 }
 
 .pub-links a:hover {
-  backgroundcolor: #007bff;
+  backgroundcolor: #4682B4;
 }
 
 /* Scrollbar styling */
@@ -242,9 +336,9 @@ Two papers **StoryMate** and **Live-Streaming-Based Dual-Teacher** are accepted 
 }
 
 .button-link:hover {
-  background-color: #007bff;
+  background-color: #4682B4;
   color: white;
-  border-color: #007bff;
+  border-color: #4682B4;
   transform: translateY(-2px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
