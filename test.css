@@ -23,7 +23,7 @@ p, div, span, li {
   margin-top: -10px; }
 
 .news-content {
-  max-height: 120px;
+  max-height: 150px;
   overflow: hidden;
   transition: max-height 0.3s ease;
   line-height: 1.3;

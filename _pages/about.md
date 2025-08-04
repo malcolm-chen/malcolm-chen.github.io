@@ -17,12 +17,9 @@ News
 ======
 <div class="news-container">
   <div class="news-content" id="newsContent">
-    <strong>04/2025</strong>  🎡 Attending CHI 2025 in Yokohama and will present our StoryMate paper. I also work as a student volunteer this year.
-
-    <strong>01/2025</strong>  ⭐️ Two papers <strong>StoryMate</strong> and <strong>Live-Streaming-Based Dual-Teacher</strong> are accepted by CHI 2025. See you in Yokohama!
-
-    <strong>11/2024</strong>  🌴 Attended EMNLP 2024 at Miami, Florida, USA.
-
+    <strong>04/2025</strong>  🎡 Attending CHI 2025 in Yokohama and will present our StoryMate paper. I also work as a student volunteer this year.<br>
+    <strong>01/2025</strong>  ⭐️ Two papers <strong>StoryMate</strong> and <strong>Live-Streaming-Based Dual-Teacher</strong> are accepted by CHI 2025. See you in Yokohama!<br>
+    <strong>11/2024</strong>  🌴 Attended EMNLP 2024 at Miami, Florida, USA.<br>
     <strong>11/2024</strong>  🌋 Attended CSCW 2024 at San Jose, Costa Rica.
   </div>
   <button class="show-more-btn" id="showMoreBtn" onclick="toggleNews()">
@@ -281,6 +278,7 @@ Publications
   background-color: #4682B4;
   font-style: normal;
   margin-bottom: 5px;
+  margin-right: 5px;
   padding: 2px 8px;
   border-radius: 5px;
   font-size: 0.8em;
