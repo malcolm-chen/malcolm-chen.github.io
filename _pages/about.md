@@ -65,7 +65,9 @@ Publications
   <div class="pub-year">
     <h2>2025</h2>
     <div class="pub-item">
-      <img src="/images/human-agent-architecture.png" alt="Human Agent Teaser" class="pub-image">
+      <div>
+        <img src="/images/human-agent-architecture.png" alt="Human Agent Teaser" class="pub-image">
+      </div>
       <div class="pub-title">
           <div class="pub-venue">CHI 2026</div>
           Through the Lens of Human-Human Collaboration: A Configurable Research Platform for Exploring Human-Agent Collaboration
@@ -78,7 +80,7 @@ Publications
           <a href="https://toby.li/">Toby Jia-jun Li</a>,
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
         </div>
-        <p style="font-style: italic;">arXiv Preprint</p>
+        <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2026</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2509.18008" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
