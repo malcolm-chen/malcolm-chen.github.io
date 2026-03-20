@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Jiaju Chen, a Master's student at Rice University. 
+Hi! My name is Jiaju Chen, a Ph.D. student at Northeastern University, advised by Prof. [Dakuo Wang](https://www.dakuowang.com/). 
 
-My research focuses on **Human-Centered AI** design of NLP applications for domain-specific scenarios, including personalized LLM-powered systems for children's education [[CHI '25]](https://dl.acm.org/doi/10.1145/3706598.3713275), dataset for evaluating LLMs' capability to generate educational-appropriate content [[EMNLP '24]](https://aclanthology.org/2024.emnlp-main.961/). Recently, I have been working on **LLM Agents** for human behavior simulation, such as leveraging LLM to simulate real-world multi-stakeholder evaluation of NLP applications.
+My research focuses on **Human-Centered AI** design of NLP applications for domain-specific scenarios, including personalized LLM-powered systems for children's education [[CHI '25]](https://dl.acm.org/doi/10.1145/3706598.3713275), dataset for evaluating LLMs' capability to generate educational-appropriate content [[EMNLP '24]](https://aclanthology.org/2024.emnlp-main.961/). Recently, I have been working on investigating the collaboration dynamics between human and **LLM Agents** [[CHI '26]](https://arxiv.org/pdf/2509.18008).
 
-Now I am a research assistant at the Human-Centered AI Lab at Northeastern University, working on projects advised by Prof. [Dakuo Wang](https://www.dakuowang.com/). During my undergraduate study, I worked closely with Prof. [Yuling Sun](https://www.yulingsun.net/).
+I also work at the Child-Centered AI Lab at Harvard University, advised by Prof. [Ying Xu](https://ying-xu.com/). During my undergraduate study, I worked closely with Prof. [Yuling Sun](https://www.yulingsun.net/).
 
 News
 ======
@@ -65,8 +65,30 @@ Publications
   <div class="pub-year">
     <h2>2025</h2>
     <div class="pub-item">
+      <img src="/images/human-agent-architecture.png" alt="Human Agent Teaser" class="pub-image">
+      <div class="pub-title">
+          <div class="pub-venue">CHI 2026</div>
+          Through the Lens of Human-Human Collaboration: A Configurable Research Platform for Exploring Human-Agent Collaboration
+        </div>
+        <div class="pub-authors">
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao*</a>,
+          <strong>Jiaju Chen*</strong>,
+          <a href="https://www.chaoranchen.com/">Chaoran Chen</a>,
+          <a href="https://aprilwang.me/">April Wang</a>,
+          <a href="https://toby.li/">Toby Jia-jun Li</a>,
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
+        </div>
+        <p style="font-style: italic;">arXiv Preprint</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2509.18008" class="button-link">
+            <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pub-item">
       <div>
-        <img src="/images/Evaluation_Framework.png" alt="StoryMate Teaser" class="pub-image">
+        <img src="/images/Evaluation_Framework.png" alt="MAJ Teaser" class="pub-image">
       </div>
       <div class="pub-content">
         <div class="pub-title">
@@ -78,7 +100,6 @@ Publications
           <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
           Xiaojie Wang, Huimin Zeng, Jing Huang, Jiri Gesi, 
           <a href="https://ying-xu.com/">Ying Xu</a>, 
-          Ying Xu,
           <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
         </div>
