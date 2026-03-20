@@ -68,23 +68,25 @@ Publications
       <div>
         <img src="/images/human-agent-architecture.png" alt="Human Agent Teaser" class="pub-image">
       </div>
-      <div class="pub-title">
-          <div class="pub-venue">CHI 2026</div>
-          Through the Lens of Human-Human Collaboration: A Configurable Research Platform for Exploring Human-Agent Collaboration
-        </div>
-        <div class="pub-authors">
-          <a href="https://www.bingshengyao.com/">Bingsheng Yao*</a>,
-          <strong>Jiaju Chen*</strong>,
-          <a href="https://www.chaoranchen.com/">Chaoran Chen</a>,
-          <a href="https://aprilwang.me/">April Wang</a>,
-          <a href="https://toby.li/">Toby Jia-jun Li</a>,
-          <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
-        </div>
-        <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2026</p>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2509.18008" class="button-link">
-            <i class="fas fa-file-pdf"></i> Arxiv
-          </a>
+      <div class="pub-content">
+        <div class="pub-title">
+            <div class="pub-venue">CHI 2026</div>
+            Through the Lens of Human-Human Collaboration: A Configurable Research Platform for Exploring Human-Agent Collaboration
+          </div>
+          <div class="pub-authors">
+            <a href="https://www.bingshengyao.com/">Bingsheng Yao*</a>,
+            <strong>Jiaju Chen*</strong>,
+            <a href="https://www.chaoranchen.com/">Chaoran Chen</a>,
+            <a href="https://aprilwang.me/">April Wang</a>,
+            <a href="https://toby.li/">Toby Jia-jun Li</a>,
+            <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
+          </div>
+          <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2026</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2509.18008" class="button-link">
+              <i class="fas fa-file-pdf"></i> Arxiv
+            </a>
+          </div>
         </div>
       </div>
     </div>
