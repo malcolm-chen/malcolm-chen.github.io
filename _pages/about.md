@@ -18,6 +18,12 @@ News
 <div class="news-container">
   <div class="news-content" id="newsContent">
     <div class="news-item">
+        <strong>04/2026</strong>  ⭐️ My work on Multi-Agent-as-Judge is accepted by ACL 2026.
+      </div>
+      <div class="news-item">
+      <strong>01/2026</strong>  ⭐️ My work on a Human-Agent Collaboration Platform is accepted by CHI 2026.
+    </div>
+    <div class="news-item">
       <strong>04/2025</strong>  🎡 Attending CHI 2025 in Yokohama and will present our StoryMate paper. I also work as a student volunteer this year.
     </div>
     <div class="news-item">
@@ -63,9 +69,34 @@ Publications
 ======
 <div class="publications" style="height: 100%; overflow-y: auto;">
   <div class="pub-year">
-    <h2>2025</h2>
-<div class="pub-item">
+    <h2>2026</h2>
+    <div class="pub-item">
       <div>
+        <img src="/images/Evaluation_Framework.png" alt="MAJ Teaser" class="pub-image">
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">
+          <div class="pub-venue">ACL 2026</div>
+          Multi-Agent-as-Judge: Aligning LLM-Agent-Based Automated Evaluation with Multi-Dimensional Human Evaluation
+        </div>
+        <div class="pub-authors">
+          <strong>Jiaju Chen</strong>,
+          <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+          Xiaojie Wang, Huimin Zeng, Jing Huang, Jiri Gesi, 
+          <a href="https://ying-xu.com/">Ying Xu</a>, 
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
+        </div>
+        <p style="font-style: italic;">arXiv Preprint</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2507.21028" class="button-link">
+            <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pub-item">
+    <div>
         <img src="/images/human-agent-architecture.png" alt="Human Agent Teaser" class="pub-image">
       </div>
       <div class="pub-content">
@@ -89,31 +120,9 @@ Publications
         </div>
       </div>
     </div>
-    <div class="pub-item">
-      <div>
-        <img src="/images/Evaluation_Framework.png" alt="MAJ Teaser" class="pub-image">
-      </div>
-      <div class="pub-content">
-        <div class="pub-title">
-          <div class="pub-venue">In Submission</div>
-          Multi-Agent-as-Judge: Aligning LLM-Agent-Based Automated Evaluation with Multi-Dimensional Human Evaluation
-        </div>
-        <div class="pub-authors">
-          <strong>Jiaju Chen</strong>,
-          <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
-          Xiaojie Wang, Huimin Zeng, Jing Huang, Jiri Gesi, 
-          <a href="https://ying-xu.com/">Ying Xu</a>, 
-          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
-          <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
-        </div>
-        <p style="font-style: italic;">arXiv Preprint</p>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2507.21028" class="button-link">
-            <i class="fas fa-file-pdf"></i> Arxiv
-          </a>
-        </div>
-      </div>
-    </div>
+  </div>
+  <div class="pub-year">
+    <h2>2025</h2>
     <div class="pub-item">
       <div>
         <img src="/images/StoryMate.png" alt="StoryMate Teaser" class="pub-image">
