@@ -87,7 +87,7 @@ Publications
           <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
         </div>
-        <p style="font-style: italic;">arXiv Preprint</p>
+        <p style="font-style: italic;">In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics.</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2507.21028" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
