@@ -72,6 +72,66 @@ Publications
     <h2>2026</h2>
     <div class="pub-item">
       <div>
+        <img src="/images/almanac.png" alt="MAJ Teaser" class="pub-image">
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">
+          <div class="pub-venue">Preprint</div>
+          Humans' ALMANAC: A Human Collaboration Dataset of Action-Level Mental Model Annotations for Agent Collaboration
+        </div>
+        <div class="pub-authors">
+          <strong>Jiaju Chen</strong>,
+          <a href="https://yuxuan.lu/">Yuxuan Lu</a>, Jiayi Su, 
+          <a href="https://www.chaoranchen.com/">Chaoran Chen</a>, Songlin Xiao, 
+          <a href="https://zhengzhang.me/">Zheng Zhang</a>,
+          <a href="https://www.microsoft.com/en-us/research/people/wangyun/">Yun Wang</a>, 
+          <a href="https://yunyaoli.github.io/">Yunyao Li</a>,
+          <a href="https://www.wvisdomlab.com/">Jian Zhao</a>,
+          <a href="https://www.cs.cmu.edu/~sherryw/">Tongshuang Wu</a>,
+          <a href="https://toby.li/">Toby Jia-Jun Li</a>,
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>.
+        </div>
+        <p style="font-style: italic;">Preprint</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2606.06388" class="button-link">
+            <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+          <a href="https://human-agent-collab.hailab.io/almanac" class="button-link">
+            <i class="fa-solid fa-share-nodes"></i> Project Website
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div>
+        <img src="/images/collabsim.png" alt="MAJ Teaser" class="pub-image">
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">
+          <div class="pub-venue">Preprint</div>
+          CollabSim: A CSCW-Grounded Methodology for Investigating Collaborative Competence of LLM Agents through Controlled Multi-Agent Experiments
+        </div>
+        <div class="pub-authors">
+          <strong>Jiaju Chen</strong>, Bo Sun
+          <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
+          <a href="https://www.microsoft.com/en-us/research/people/wangyun/">Yun Wang</a>, 
+          <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
+          <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>.
+        </div>
+        <p style="font-style: italic;">Preprint</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2606.06399" class="button-link">
+            <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+          <a href="https://human-agent-collab.hailab.io/collabsim" class="button-link">
+            <i class="fa-solid fa-share-nodes"></i> Project Website
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div>
         <img src="/images/Evaluation_Framework.png" alt="MAJ Teaser" class="pub-image">
       </div>
       <div class="pub-content">
