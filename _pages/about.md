@@ -18,7 +18,7 @@ News
 <div class="news-container">
   <div class="news-content" id="newsContent">
     <div class="news-item">
-        <strong>04/2026</strong>  ⭐️ My work on Multi-Agent-as-Judge is accepted by ACL 2026.
+        <strong>04/2026</strong>  ⭐️ My work on Multi-Agent-as-Judge is accepted by ACL 2026. See
       </div>
       <div class="news-item">
       <strong>01/2026</strong>  ⭐️ My work on a Human-Agent Collaboration Platform is accepted by CHI 2026.
@@ -67,11 +67,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 Publications
 ======
-<div class="publications" style="height: 100%; overflow-y: auto;">
+<div class="publications">
   <div class="pub-year">
     <h2>2026</h2>
     <div class="pub-item">
-      <div>
+      <div class="pub-figure">
         <img src="/images/almanac.png" alt="MAJ Teaser" class="pub-image">
       </div>
       <div class="pub-content">
@@ -92,7 +92,7 @@ Publications
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
           <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>.
         </div>
-        <p style="font-style: italic;">Preprint</p>
+        <p class="pub-desc">Preprint</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2606.06388" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
@@ -104,7 +104,7 @@ Publications
       </div>
     </div>
     <div class="pub-item">
-      <div>
+      <div class="pub-figure">
         <img src="/images/collabsim.png" alt="MAJ Teaser" class="pub-image">
       </div>
       <div class="pub-content">
@@ -113,13 +113,13 @@ Publications
           CollabSim: A CSCW-Grounded Methodology for Investigating Collaborative Competence of LLM Agents through Controlled Multi-Agent Experiments
         </div>
         <div class="pub-authors">
-          <strong>Jiaju Chen</strong>, Bo Sun
+          <strong>Jiaju Chen</strong>, Bo Sun,
           <a href="https://yuxuan.lu/">Yuxuan Lu</a>,
           <a href="https://www.microsoft.com/en-us/research/people/wangyun/">Yun Wang</a>, 
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
           <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>.
         </div>
-        <p style="font-style: italic;">Preprint</p>
+        <p class="pub-desc">Preprint</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2606.06399" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
@@ -131,7 +131,7 @@ Publications
       </div>
     </div>
     <div class="pub-item">
-      <div>
+      <div class="pub-figure">
         <img src="/images/Evaluation_Framework.png" alt="MAJ Teaser" class="pub-image">
       </div>
       <div class="pub-content">
@@ -147,7 +147,7 @@ Publications
           <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>,
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
         </div>
-        <p style="font-style: italic;">In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics.</p>
+        <p class="pub-desc">In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics.</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2507.21028" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
@@ -156,7 +156,7 @@ Publications
       </div>
     </div>
     <div class="pub-item">
-    <div>
+      <div class="pub-figure">
         <img src="/images/human-agent-architecture.png" alt="Human Agent Teaser" class="pub-image">
       </div>
       <div class="pub-content">
@@ -172,7 +172,7 @@ Publications
           <a href="https://toby.li/">Toby Jia-jun Li</a>,
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
         </div>
-        <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2026</p>
+        <p class="pub-desc">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2026</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2509.18008" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
@@ -184,7 +184,7 @@ Publications
   <div class="pub-year">
     <h2>2025</h2>
     <div class="pub-item">
-      <div>
+      <div class="pub-figure">
         <img src="/images/StoryMate.png" alt="StoryMate Teaser" class="pub-image">
         <img src="/images/storymate_conv.png" alt="StoryMate Conversation Teaser" class="pub-image">
       </div>
@@ -205,7 +205,7 @@ Publications
           <a href="https://www.yulingsun.net/">Yuling Sun</a>,
           Liang He.
         </div>
-        <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
+        <p class="pub-desc">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2503.00590" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
@@ -223,7 +223,7 @@ Publications
       </div>
     </div>
     <div class="pub-item">
-      <div>
+      <div class="pub-figure">
         <img src="/images/onescreen.png" alt="Live-Streaming Teaser" class="pub-image">
         <img src="/images/lsdc.png" alt="Live-Streaming Teaser" class="pub-image">
       </div>
@@ -242,7 +242,7 @@ Publications
           Liang He,
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>.
         </div>
-        <p style="font-style: italic;">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
+        <p class="pub-desc">In Proceedings of the CHI Conference on Human Factors in Computing Systems, 2025</p>
         <div class="pub-links">
           <a href="https://dl.acm.org/doi/abs/10.1145/3706598.3714232" class="button-link">
             <i class="fas fa-file-pdf"></i> Paper
@@ -254,7 +254,9 @@ Publications
   <div class="pub-year">
     <h2>2024</h2>
     <div class="pub-item">
-      <img src="/images/storyspark.png" alt="StorySparkQA Teaser" class="pub-image">
+      <div class="pub-figure">
+        <img src="/images/storyspark.png" alt="StorySparkQA Teaser" class="pub-image">
+      </div>
       <div class="pub-content">
         <div class="pub-title">
           <div class="pub-venue">EMNLP 2024</div>
@@ -273,7 +275,7 @@ Publications
           <a href="https://www.yulingsun.net/">Yuling Sun</a>,
           Liang He.
         </div>
-        <p style="font-style: italic;">In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</p>
+        <p class="pub-desc">In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2311.09756" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
@@ -288,7 +290,9 @@ Publications
       </div>
     </div>
     <div class="pub-item">
-    <img src="/images/cscw24.png" alt="CSCW24 Teaser" class="pub-image">
+      <div class="pub-figure">
+        <img src="/images/cscw24.png" alt="CSCW24 Teaser" class="pub-image">
+      </div>
       <div class="pub-content">
         <div class="pub-title">
           <div class="pub-venue">CSCW 2024</div>
@@ -305,7 +309,7 @@ Publications
           <a href="https://ying-xu.com/">Ying Xu</a>, 
           Liang He.
         </div>
-        <p style="font-style: italic;">In Proceedings of the ACM on Human-Computer Interaction, Volume 8, Issue CSCW2</p>
+        <p class="pub-desc">In Proceedings of the ACM on Human-Computer Interaction, Volume 8, Issue CSCW2</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2401.13804" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
@@ -315,134 +319,3 @@ Publications
     </div>
   </div>
 </div>
-
-<style>
-.publications {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  padding-right: 10px;
-}
-
-.pub-year h2 {
-  color: #2c3e50;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 5px;
-  margin-top: 20px;
-}
-
-.pub-item {
-  margin-bottom: 20px;
-  padding: 15px;
-  background: #f8f9fa;
-  border-radius: 5px;
-  border: 1px solid #eee;
-  transition: transform 0.2s ease;
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 20px;
-  align-items: center;
-}
-
-.pub-image {
-  width: 200px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 4px;
-  border: 1px solid #eee;
-  display: block;
-  margin: auto 0;
-}
-
-.pub-content {
-  flex: 1;
-  align-self: start;
-}
-
-.pub-item:hover {
-  transform: translateX(5px);
-  border-left: 3px solid #4682B4;
-}
-
-.pub-title {
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 5px;
-  font-size: 1.1em;
-}
-
-.pub-authors {
-  color: #666;
-  margin-bottom: 5px;
-}
-
-.pub-venue {
-  color: white;
-  background-color: #4682B4;
-  font-style: normal;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  padding: 2px 8px;
-  border-radius: 5px;
-  font-size: 0.8em;
-  font-weight: 500;
-  display: inline-block;
-  line-height: 1.2;
-  vertical-align: middle;
-}
-
-.pub-links {
-  font-size: 0.9em;
-}
-
-.pub-links a {
-  color: #6c757d;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.pub-links a:hover {
-  backgroundcolor: #4682B4;
-}
-
-/* Scrollbar styling */
-.publications::-webkit-scrollbar {
-  width: 8px;
-}
-
-.publications::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 4px;
-}
-
-.publications::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 4px;
-}
-
-.publications::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-.button-link {
-  display: inline-block;
-  padding: 4px 12px;
-  margin: 0 5px;
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 4px;
-  color: #495057;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.button-link:hover {
-  background-color: #4682B4;
-  color: white;
-  border-color: #4682B4;
-  transform: translateY(-2px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.button-link i {
-  margin-right: 5px;
-}
-</style>
