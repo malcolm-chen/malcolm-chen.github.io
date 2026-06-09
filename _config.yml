@@ -12,7 +12,7 @@ title                    : "Jiaju Chen / 陈家驹"
 title_separator          : "-"
 name                     : &name "Jiaju Chen"
 description              : &description "personal description"
-url                      : https://malcolm-chen.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://www.jiajuchen.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "malcolm-chen/malcolm-chen.github.io"
 

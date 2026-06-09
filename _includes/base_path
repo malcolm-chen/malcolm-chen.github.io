@@ -3,3 +3,8 @@
 {% else %}
   {% assign base_path = site.github.url %}
 {% endif %}
+{% assign base_last = base_path | slice: -1, 1 %}
+{% if base_last == '/' %}
+  {% assign base_len = base_path | size | minus: 1 %}
+  {% assign base_path = base_path | slice: 0, base_len %}
+{% endif %}
