@@ -9,197 +9,201 @@ author_profile: true
 
 <div class="portfolio-container">
 
-  <header class="portfolio-hero">
-    <p class="portfolio-hero__eyebrow">Research &amp; Systems</p>
-    <h2 class="portfolio-hero__title">From Human Mental Models to Agent Collaborative Competence</h2>
-    <p class="portfolio-hero__desc">
-      Effective collaboration depends on maintaining mental models of shared goals, partner intentions, and one's own reasoning.
-      I study this along three complementary lines — capturing human mental models, simulating agent collaborative competence,
-      and building open research infrastructure — unified in a single research hub.
-    </p>
-    <div class="portfolio-hero__links pub-links">
-      <a href="https://human-agent-collab.hailab.io/" class="button-link" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-share-nodes"></i> Research Hub
-      </a>
-      <a href="https://github.com/malcolm-chen/human-agent-collab-homepage" class="button-link" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i> Hub Website
-      </a>
-    </div>
-  </header>
-
-  <!-- ALMANAC -->
-  <article class="portfolio-project">
-    <div class="portfolio-project__content">
-      <span class="pub-venue">Preprint · First Author</span>
-      <h2 class="portfolio-project__title">ALMANAC</h2>
-      <p class="portfolio-project__subtitle">Humans' ALMANAC: A Human Collaboration Dataset of Action-Level Mental Model Annotations for Agent Collaboration</p>
-      <p class="portfolio-project__desc">
-        A dataset of humans' <strong>A</strong>ction-<strong>L</strong>evel <strong>M</strong>ental model <strong>AN</strong>notations for <strong>A</strong>gent <strong>C</strong>ollaboration,
-        built from the Map Task. At every action, participants annotated their mental models: team goals, partner intentions, and their own reasoning.
+  <!-- Human-Agent Collaboration -->
+  <section class="portfolio-section">
+    <header class="portfolio-section__header">
+      <h2 class="portfolio-section__title">Human-Agent Collaboration</h2>
+      <p class="portfolio-section__desc">
+        I study human-agent collaboration along three complementary lines: ALMANAC captures how humans form and update these mental models during collaboration; CollabSim investigates LLM agents' collaborative competence through controlled multi-agent experiments; our Human-Agent Collaboration Platform provides an open-source research platform for HCI researchers studying human–LLM agent collaboration.
       </p>
-      <div class="portfolio-stats">
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">2,987</span>
-          <span class="portfolio-stat__lab">Annotated Actions</span>
-        </div>
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">50</span>
-          <span class="portfolio-stat__lab">Participants</span>
-        </div>
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">25</span>
-          <span class="portfolio-stat__lab">Sessions</span>
-        </div>
-      </div>
-      <div class="portfolio-tags">
-        <span class="portfolio-tag">Mental Models</span>
-        <span class="portfolio-tag">Common Ground</span>
-        <span class="portfolio-tag">Dataset</span>
-      </div>
       <div class="pub-links">
-        <a href="https://human-agent-collab.hailab.io/almanac" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i> Project
-        </a>
-        <a href="https://arxiv.org/abs/2606.06388" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-file-pdf"></i> Paper
-        </a>
-        <a href="https://huggingface.co/datasets/NEU-HAI/Almanac" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-database"></i> Dataset
+        <a href="https://human-agent-collab.hailab.io/" class="button-link" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-share-nodes"></i> Research Hub
         </a>
       </div>
-    </div>
-    <figure class="portfolio-project__figure">
-      <a href="https://human-agent-collab.hailab.io/almanac" target="_blank" rel="noopener noreferrer">
-        <img src="/images/almanac.png" alt="ALMANAC action-level mental model annotations">
-      </a>
-    </figure>
-  </article>
+    </header>
 
-  <!-- CollabSim -->
-  <article class="portfolio-project">
-    <div class="portfolio-project__content">
-      <span class="pub-venue">Preprint · First Author</span>
-      <h2 class="portfolio-project__title">CollabSim</h2>
-      <p class="portfolio-project__subtitle">A CSCW-Grounded Methodology for Investigating Collaborative Competence of LLM Agents through Controlled Multi-Agent Experiments</p>
-      <p class="portfolio-project__desc">
-        A configurable simulation framework grounded in CSCW research. Researchers can systematically vary task paradigms,
-        interaction conditions, model backbones, and agent designs to isolate what drives or breaks collaborative competence in LLM agents.
-      </p>
-      <div class="portfolio-stats">
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">4</span>
-          <span class="portfolio-stat__lab">CSCW Paradigms</span>
+    <article class="portfolio-project">
+      <div class="portfolio-project__content">
+        <span class="pub-venue">Preprint</span>
+        <h3 class="portfolio-project__title">ALMANAC</h3>
+        <p class="portfolio-project__subtitle">Humans' ALMANAC: A Human Collaboration Dataset of Action-Level Mental Model Annotations for Agent Collaboration</p>
+        <p class="portfolio-project__desc">
+          A dataset of humans' <strong>A</strong>ction-<strong>L</strong>evel <strong>M</strong>ental model <strong>AN</strong>notations for <strong>A</strong>gent <strong>C</strong>ollaboration,
+          built from the Map Task. At every action, participants annotated their mental models: team goals, partner intentions, and their own reasoning.
+        </p>
+        <div class="portfolio-stats">
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">2,987</span>
+            <span class="portfolio-stat__lab">Annotated Actions</span>
+          </div>
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">50</span>
+            <span class="portfolio-stat__lab">Participants</span>
+          </div>
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">25</span>
+            <span class="portfolio-stat__lab">Sessions</span>
+          </div>
         </div>
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">3+</span>
-          <span class="portfolio-stat__lab">Interaction Conditions</span>
+        <div class="portfolio-tags">
+          <span class="portfolio-tag">Mental Models</span>
+          <span class="portfolio-tag">Common Ground</span>
+          <span class="portfolio-tag">Dataset</span>
         </div>
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">12+</span>
-          <span class="portfolio-stat__lab">Model &amp; Agent Designs</span>
+        <div class="pub-links">
+          <a href="https://human-agent-collab.hailab.io/almanac" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Project
+          </a>
+          <a href="https://arxiv.org/abs/2606.06388" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+          <a href="https://huggingface.co/datasets/NEU-HAI/Almanac" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-database"></i> Dataset
+          </a>
         </div>
       </div>
-      <div class="portfolio-tags">
-        <span class="portfolio-tag">Multi-Agent Systems</span>
-        <span class="portfolio-tag">CSCW</span>
-        <span class="portfolio-tag">Simulation</span>
-      </div>
-      <div class="pub-links">
-        <a href="https://human-agent-collab.hailab.io/collabsim" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i> Project
+      <figure class="portfolio-project__figure">
+        <a href="https://human-agent-collab.hailab.io/almanac" target="_blank" rel="noopener noreferrer">
+          <img src="/images/almanac.png" alt="ALMANAC action-level mental model annotations">
         </a>
-        <a href="https://arxiv.org/abs/2606.06399" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-file-pdf"></i> Paper
-        </a>
-        <a href="https://github.com/neuhai/CollabSim" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-github"></i> Code
-        </a>
-      </div>
-    </div>
-    <figure class="portfolio-project__figure">
-      <a href="https://human-agent-collab.hailab.io/collabsim" target="_blank" rel="noopener noreferrer">
-        <img src="/images/collabsim.png" alt="CollabSim experiment controller and agent action flow">
-      </a>
-    </figure>
-  </article>
+      </figure>
+    </article>
 
-  <!-- Human-Agent Collaboration Platform -->
-  <article class="portfolio-project">
-    <div class="portfolio-project__content">
-      <span class="pub-venue">CHI 2026 · Co-first Author</span>
-      <h2 class="portfolio-project__title">Human-Agent Collaboration Platform</h2>
-      <p class="portfolio-project__subtitle">Through the Lens of Human-Human Collaboration: A Configurable Research Platform for Exploring Human-Agent Collaboration</p>
-      <p class="portfolio-project__desc">
-        An open-source, extensible research platform for HCI researchers. Its modular design supports adaptation of classic CSCW experiments
-        and theory-grounded manipulation of interaction variables, enabling systematic study of human–LLM agent collaboration.
-      </p>
-      <div class="portfolio-stats">
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">Customizable</span>
-          <span class="portfolio-stat__lab">CSCW Paradigms</span>
+    <article class="portfolio-project">
+      <div class="portfolio-project__content">
+        <span class="pub-venue">Preprint</span>
+        <h3 class="portfolio-project__title">CollabSim</h3>
+        <p class="portfolio-project__subtitle">A CSCW-Grounded Methodology for Investigating Collaborative Competence of LLM Agents through Controlled Multi-Agent Experiments</p>
+        <p class="portfolio-project__desc">
+          A configurable simulation framework grounded in CSCW research. Researchers can systematically vary task paradigms,
+          interaction conditions, model backbones, and agent designs to isolate what drives or breaks collaborative competence in LLM agents.
+        </p>
+        <div class="portfolio-stats">
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">4</span>
+            <span class="portfolio-stat__lab">CSCW Paradigms</span>
+          </div>
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">3+</span>
+            <span class="portfolio-stat__lab">Interaction Conditions</span>
+          </div>
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">12+</span>
+            <span class="portfolio-stat__lab">Model &amp; Agent Designs</span>
+          </div>
         </div>
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">Configurable</span>
-          <span class="portfolio-stat__lab">Experiment Conditions</span>
+        <div class="portfolio-tags">
+          <span class="portfolio-tag">Multi-Agent Systems</span>
+          <span class="portfolio-tag">CSCW</span>
+          <span class="portfolio-tag">Simulation</span>
         </div>
-        <div class="portfolio-stat">
-          <span class="portfolio-stat__val">Open</span>
-          <span class="portfolio-stat__lab">Source &amp; Extensible</span>
+        <div class="pub-links">
+          <a href="https://human-agent-collab.hailab.io/collabsim" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Project
+          </a>
+          <a href="https://arxiv.org/abs/2606.06399" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+          <a href="https://github.com/neuhai/CollabSim" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> Code
+          </a>
         </div>
       </div>
-      <div class="portfolio-tags">
-        <span class="portfolio-tag">Human-Agent Collaboration</span>
-        <span class="portfolio-tag">CSCW</span>
-        <span class="portfolio-tag">Open Source</span>
-      </div>
-      <div class="pub-links">
-        <a href="https://human-agent-collab.hailab.io/platform" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i> Project
+      <figure class="portfolio-project__figure">
+        <a href="https://human-agent-collab.hailab.io/collabsim" target="_blank" rel="noopener noreferrer">
+          <img src="/images/collabsim.png" alt="CollabSim experiment controller and agent action flow">
         </a>
-        <a href="https://arxiv.org/abs/2509.18008" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-file-pdf"></i> Paper
-        </a>
-        <a href="https://github.com/neuhai/human-agent-collab" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-github"></i> Code
-        </a>
-      </div>
-    </div>
-    <figure class="portfolio-project__figure">
-      <a href="https://human-agent-collab.hailab.io/platform" target="_blank" rel="noopener noreferrer">
-        <img src="/images/human-agent-architecture.png" alt="Human-Agent Collaboration Platform architecture">
-      </a>
-    </figure>
-  </article>
+      </figure>
+    </article>
 
-  <!-- StoryMate -->
-  <article class="portfolio-project">
-    <div class="portfolio-project__content">
-      <span class="pub-venue">CHI 2025 · First Author</span>
-      <h2 class="portfolio-project__title">StoryMate</h2>
-      <p class="portfolio-project__subtitle">Characterizing LLM-Empowered Personalized Story-Reading and Interaction for Children: Insights from Multi-Stakeholder Perspectives</p>
-      <p class="portfolio-project__desc">
-        An LLM-powered personalized story-reading system for children, designed from multi-stakeholder perspectives.
-        StoryMate adapts narrative content and interaction to each child's interests, supporting engaging and developmentally appropriate reading experiences.
+    <article class="portfolio-project">
+      <div class="portfolio-project__content">
+        <span class="pub-venue">CHI 2026</span>
+        <h3 class="portfolio-project__title">Human-Agent Collaboration Platform</h3>
+        <p class="portfolio-project__subtitle">Through the Lens of Human-Human Collaboration: A Configurable Research Platform for Exploring Human-Agent Collaboration</p>
+        <p class="portfolio-project__desc">
+          An open-source, extensible research platform for HCI researchers. Its modular design supports adaptation of classic CSCW experiments
+          and theory-grounded manipulation of interaction variables, enabling systematic study of human–LLM agent collaboration.
+        </p>
+        <div class="portfolio-stats">
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">Customizable</span>
+            <span class="portfolio-stat__lab">CSCW Paradigms</span>
+          </div>
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">Configurable</span>
+            <span class="portfolio-stat__lab">Experiment Conditions</span>
+          </div>
+          <div class="portfolio-stat">
+            <span class="portfolio-stat__val">Open</span>
+            <span class="portfolio-stat__lab">Source &amp; Extensible</span>
+          </div>
+        </div>
+        <div class="portfolio-tags">
+          <span class="portfolio-tag">Human-Agent Collaboration</span>
+          <span class="portfolio-tag">CSCW</span>
+          <span class="portfolio-tag">Open Source</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://human-agent-collab.hailab.io/platform" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Project
+          </a>
+          <a href="https://arxiv.org/abs/2509.18008" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+          <a href="https://github.com/neuhai/human-agent-collab" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> Code
+          </a>
+        </div>
+      </div>
+      <figure class="portfolio-project__figure">
+        <a href="https://human-agent-collab.hailab.io/platform" target="_blank" rel="noopener noreferrer">
+          <img src="/images/human-agent-architecture.png" alt="Human-Agent Collaboration Platform architecture">
+        </a>
+      </figure>
+    </article>
+  </section>
+
+  <!-- Education Technology -->
+  <section class="portfolio-section">
+    <header class="portfolio-section__header">
+      <h2 class="portfolio-section__title">Education Technology</h2>
+      <p class="portfolio-section__desc">
+        Designing child-centered AI systems that support personalized learning experiences,
+        grounded in multi-stakeholder perspectives from children, parents, and educators.
       </p>
-      <div class="portfolio-tags">
-        <span class="portfolio-tag">Child-Centered AI</span>
-        <span class="portfolio-tag">Education</span>
-        <span class="portfolio-tag">LLM Applications</span>
+    </header>
+
+    <article class="portfolio-project">
+      <div class="portfolio-project__content">
+        <span class="pub-venue">CHI 2025</span>
+        <h3 class="portfolio-project__title">StoryMate</h3>
+        <p class="portfolio-project__subtitle">Characterizing LLM-Empowered Personalized Story-Reading and Interaction for Children: Insights from Multi-Stakeholder Perspectives</p>
+        <p class="portfolio-project__desc">
+          An LLM-powered personalized story-reading system for children, designed from multi-stakeholder perspectives.
+          StoryMate adapts narrative content and interaction to each child's interests, supporting engaging and developmentally appropriate reading experiences.
+        </p>
+        <div class="portfolio-tags">
+          <span class="portfolio-tag">Child-Centered AI</span>
+          <span class="portfolio-tag">Education</span>
+          <span class="portfolio-tag">LLM Applications</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://storymate.hailab.io/" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-play"></i> Experience Demo
+          </a>
+          <a href="https://dl.acm.org/doi/10.1145/3706598.3713275" class="button-link" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+        </div>
       </div>
-      <div class="pub-links">
-        <a href="https://storymate.hailab.io/" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-play"></i> Experience Demo
+      <figure class="portfolio-project__figure">
+        <a href="https://storymate.hailab.io/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/storymate_demo.jpg" alt="StoryMate interactive story-reading demo">
         </a>
-        <a href="https://dl.acm.org/doi/10.1145/3706598.3713275" class="button-link" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-file-pdf"></i> Paper
-        </a>
-      </div>
-    </div>
-    <figure class="portfolio-project__figure">
-      <a href="https://storymate.hailab.io/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/storymate_demo.jpg" alt="StoryMate interactive story-reading demo">
-      </a>
-    </figure>
-  </article>
+      </figure>
+    </article>
+  </section>
 
 </div>
