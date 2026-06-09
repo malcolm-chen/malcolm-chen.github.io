@@ -18,10 +18,10 @@ News
 <div class="news-container">
   <div class="news-content" id="newsContent">
     <div class="news-item">
-        <strong>04/2026</strong>  ⭐️ My work on Multi-Agent-as-Judge is accepted by ACL 2026. See
+        <strong>04/2026</strong>  ⭐️ My work on <strong>Multi-Agent-as-Judge</strong> is accepted by ACL 2026. See you in San Diego!
       </div>
       <div class="news-item">
-      <strong>01/2026</strong>  ⭐️ My work on a Human-Agent Collaboration Platform is accepted by CHI 2026.
+      <strong>01/2026</strong>  ⭐️ My work on a <strong>Human-Agent Collaboration Platform</strong> is accepted by CHI 2026.
     </div>
     <div class="news-item">
       <strong>04/2025</strong>  🎡 Attending CHI 2025 in Yokohama and will present our StoryMate paper. I also work as a student volunteer this year.
@@ -100,6 +100,9 @@ Publications
           <a href="https://human-agent-collab.hailab.io/almanac" class="button-link">
             <i class="fa-solid fa-share-nodes"></i> Project Website
           </a>
+          <a href="https://huggingface.co/datasets/NEU-HAI/Almanac" class="button-link">
+            <i class="fas fa-database"></i> Dataset
+          </a>
         </div>
       </div>
     </div>
@@ -127,6 +130,9 @@ Publications
           <a href="https://human-agent-collab.hailab.io/collabsim" class="button-link">
             <i class="fa-solid fa-share-nodes"></i> Project Website
           </a>
+          <a href="https://github.com/neuhai/CollabSim" class="button-link">
+            <i class="fab fa-github"></i> Code
+          </a>
         </div>
       </div>
     </div>
@@ -151,6 +157,9 @@ Publications
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2507.21028" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
+          </a>
+          <a href="https://github.com/neuhai/MAJ-Eval" class="button-link">
+            <i class="fab fa-github"></i> Code
           </a>
         </div>
       </div>
