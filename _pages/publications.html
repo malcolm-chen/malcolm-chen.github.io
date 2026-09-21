@@ -9,10 +9,16 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+<div class="pub-filters" id="pubFilters">
+  <button type="button" class="pub-filter is-active" data-filter="all">All</button>
+  <button type="button" class="pub-filter" data-filter="hac">Human-Agent Collaboration</button>
+  <button type="button" class="pub-filter" data-filter="mas">Multi-Agent System</button>
+  <button type="button" class="pub-filter" data-filter="edu">LLM-Powered Education</button>
+</div>
 <div class="publications">
   <div class="pub-year">
     <h2>2026</h2>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="hac">
       <div class="pub-figure">
         <img src="/images/almanac.png" alt="MAJ Teaser" class="pub-image">
       </div>
@@ -45,7 +51,7 @@ author_profile: true
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="mas">
       <div class="pub-figure">
         <img src="/images/collabsim.png" alt="MAJ Teaser" class="pub-image">
       </div>
@@ -72,7 +78,7 @@ author_profile: true
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="mas">
       <div class="pub-figure">
         <img src="/images/Evaluation_Framework.png" alt="MAJ Teaser" class="pub-image">
       </div>
@@ -97,7 +103,7 @@ author_profile: true
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="hac">
       <div class="pub-figure">
         <img src="/images/human-agent-architecture.png" alt="Human Agent Teaser" class="pub-image">
       </div>
@@ -125,7 +131,7 @@ author_profile: true
   </div>
   <div class="pub-year">
     <h2>2025</h2>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="edu">
       <div class="pub-figure">
         <img src="/images/StoryMate.png" alt="StoryMate Teaser" class="pub-image">
         <img src="/images/storymate_conv.png" alt="StoryMate Conversation Teaser" class="pub-image">
@@ -164,7 +170,7 @@ author_profile: true
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="edu">
       <div class="pub-figure">
         <img src="/images/onescreen.png" alt="Live-Streaming Teaser" class="pub-image">
         <img src="/images/lsdc.png" alt="Live-Streaming Teaser" class="pub-image">
@@ -195,7 +201,7 @@ author_profile: true
   </div>
   <div class="pub-year">
     <h2>2024</h2>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="edu">
       <div class="pub-figure">
         <img src="/images/storyspark.png" alt="StorySparkQA Teaser" class="pub-image">
       </div>
@@ -231,7 +237,7 @@ author_profile: true
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="edu">
       <div class="pub-figure">
         <img src="/images/cscw24.png" alt="CSCW24 Teaser" class="pub-image">
       </div>
@@ -261,3 +267,5 @@ author_profile: true
     </div>
   </div>
 </div>
+
+<script src="{{ site.baseurl }}/assets/js/pub-filter.js"></script>

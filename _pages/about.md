@@ -6,16 +6,21 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Jiaju Chen, a Ph.D. student at Northeastern University, advised by Prof. [Dakuo Wang](https://www.dakuowang.com/). 
+I am Jiaju Chen, a Ph.D. student in Computer Science at Northeastern University, advised by Prof. [Dakuo Wang](https://www.dakuowang.com/) at the [Human-Centered AI Lab](https://hailab.io/). Previously, I earned my master's degree in Computer Science from Rice University and my bachelor's degree in Computer Science from East China Normal University.
 
-My research focuses on **Human-Centered AI** design of NLP applications for domain-specific scenarios, including personalized LLM-powered systems for children's education [[CHI '25]](https://dl.acm.org/doi/10.1145/3706598.3713275), dataset for evaluating LLMs' capability to generate educational-appropriate content [[EMNLP '24]](https://aclanthology.org/2024.emnlp-main.961/). Recently, I have been working on investigating the collaboration dynamics between human and **LLM Agents** [[CHI '26]](https://arxiv.org/pdf/2509.18008).
+My research explores how people and LLM agents can work together, and what it takes to build and evaluate the systems that make such collaboration possible. I currently investigate three directions:
 
-I also work at the Child-Centered AI Lab at Harvard University, advised by Prof. [Ying Xu](https://ying-xu.com/). During my undergraduate study, I worked closely with Prof. [Yuling Sun](https://www.yulingsun.net/).
+- **Human-Agent Collaboration**: how humans and LLM agents establish common ground and coordinate on shared tasks, through a configurable research platform [[CHI '26]](https://arxiv.org/abs/2509.18008) and a dataset of action-level human mental model annotations [[EMNLP '26]](https://arxiv.org/abs/2606.06388).
+- **Multi-Agent Evaluation & Simulation**: methods to assess and simulate the collaborative competence of LLM agents, including a Multi-Agent-as-Judge evaluation framework [[ACL '26]](https://arxiv.org/abs/2507.21028) and CollabSim, a CSCW-grounded simulation methodology [[Preprint]](https://arxiv.org/abs/2606.06399).
+- **LLM Knowledge Augmentation & Domain Adaptation**: adapting LLMs to support children's personalized, story-based learning, from expert-annotated knowledge grounding [[EMNLP '24]](https://aclanthology.org/2024.emnlp-main.961/) to personalized story-reading systems [[CHI '25]](https://dl.acm.org/doi/10.1145/3706598.3713275), informed by need-finding studies with parents and teachers [[CSCW '24]](https://arxiv.org/abs/2401.13804) [[CHI '25]](https://dl.acm.org/doi/abs/10.1145/3706598.3714232).
 
 News
 ======
 <div class="news-container">
   <div class="news-content" id="newsContent">
+    <div class="news-item">
+      <strong>08/2026</strong>  ⭐️ My work on <strong>ALMANAC dataset</strong> is accepted in Findings of EMNLP 2026.
+    </div>
     <div class="news-item">
         <strong>04/2026</strong>  ⭐️ My work on <strong>Multi-Agent-as-Judge</strong> is accepted by ACL 2026. See you in San Diego!
       </div>
@@ -35,47 +40,26 @@ News
       <strong>11/2024</strong>  🌋 Attended CSCW 2024 at San Jose, Costa Rica.
     </div>
   </div>
-  <button class="show-more-btn" id="showMoreBtn" onclick="toggleNews()">
-    <i class="fas fa-chevron-down"></i> Show More
-  </button>
 </div>
-
-<script>
-function toggleNews() {
-  const content = document.getElementById('newsContent');
-  const btn = document.getElementById('showMoreBtn');
-  const icon = btn.querySelector('i');
-  
-  if (content.classList.contains('expanded')) {
-    content.classList.remove('expanded');
-    btn.innerHTML = '<i class="fas fa-chevron-down"></i> Show More';
-  } else {
-    content.classList.add('expanded');
-    btn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Less';
-  }
-}
-
-// 自动转换 **text** 为 <strong>text</strong>
-document.addEventListener('DOMContentLoaded', function() {
-  const newsContent = document.getElementById('newsContent');
-  if (newsContent) {
-    newsContent.innerHTML = newsContent.innerHTML.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-  }
-});
-</script>
 
 Publications
 ======
+<div class="pub-filters" id="pubFilters">
+  <button type="button" class="pub-filter is-active" data-filter="all">All</button>
+  <button type="button" class="pub-filter" data-filter="hac">Human-Agent Collaboration</button>
+  <button type="button" class="pub-filter" data-filter="mas">Multi-Agent System</button>
+  <button type="button" class="pub-filter" data-filter="edu">LLM-Powered Education</button>
+</div>
 <div class="publications">
   <div class="pub-year">
     <h2>2026</h2>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="hac">
       <div class="pub-figure">
         <img src="/images/almanac.png" alt="MAJ Teaser" class="pub-image">
       </div>
       <div class="pub-content">
         <div class="pub-title">
-          <div class="pub-venue">Preprint</div>
+          <div class="pub-venue">EMNLP 2026 Findings</div>
           Humans' ALMANAC: A Human Collaboration Dataset of Action-Level Mental Model Annotations for Agent Collaboration
         </div>
         <div class="pub-authors">
@@ -105,7 +89,7 @@ Publications
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="mas">
       <div class="pub-figure">
         <img src="/images/collabsim.png" alt="MAJ Teaser" class="pub-image">
       </div>
@@ -135,7 +119,7 @@ Publications
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="mas">
       <div class="pub-figure">
         <img src="/images/Evaluation_Framework.png" alt="MAJ Teaser" class="pub-image">
       </div>
@@ -163,7 +147,7 @@ Publications
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="hac">
       <div class="pub-figure">
         <img src="/images/human-agent-architecture.png" alt="Human Agent Teaser" class="pub-image">
       </div>
@@ -191,7 +175,7 @@ Publications
   </div>
   <div class="pub-year">
     <h2>2025</h2>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="edu">
       <div class="pub-figure">
         <img src="/images/StoryMate.png" alt="StoryMate Teaser" class="pub-image">
         <img src="/images/storymate_conv.png" alt="StoryMate Conversation Teaser" class="pub-image">
@@ -230,7 +214,7 @@ Publications
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="edu">
       <div class="pub-figure">
         <img src="/images/onescreen.png" alt="Live-Streaming Teaser" class="pub-image">
         <img src="/images/lsdc.png" alt="Live-Streaming Teaser" class="pub-image">
@@ -261,7 +245,7 @@ Publications
   </div>
   <div class="pub-year">
     <h2>2024</h2>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="edu">
       <div class="pub-figure">
         <img src="/images/storyspark.png" alt="StorySparkQA Teaser" class="pub-image">
       </div>
@@ -297,7 +281,7 @@ Publications
         </div>
       </div>
     </div>
-    <div class="pub-item">
+    <div class="pub-item" data-tags="edu">
       <div class="pub-figure">
         <img src="/images/cscw24.png" alt="CSCW24 Teaser" class="pub-image">
       </div>
@@ -327,3 +311,5 @@ Publications
     </div>
   </div>
 </div>
+
+<script src="{{ site.baseurl }}/assets/js/pub-filter.js"></script>
