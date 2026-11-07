@@ -75,7 +75,7 @@ Publications
           <a href="https://www.dakuowang.com/">Dakuo Wang</a>,
           <a href="https://www.bingshengyao.com/">Bingsheng Yao</a>.
         </div>
-        <p class="pub-desc">Preprint</p>
+        <p class="pub-desc">EMNLP 2026 Findings</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2606.06388" class="button-link">
             <i class="fas fa-file-pdf"></i> Arxiv
